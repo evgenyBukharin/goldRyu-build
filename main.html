@@ -45,7 +45,7 @@
 		<link rel="stylesheet" href="css/vendor.css" />
 		<link rel="stylesheet" href="css/main.css" />
 		<script
-			src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=fe098591-b54e-4b5e-895c-d44ce6bac255"
+			src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=4b27804e-320a-42f2-9edb-7580ad2846a5"
 			type="text/javascript"
 		></script>
 		<script defer="defer" src="js/main.js"></script>
@@ -327,61 +327,63 @@
 					</div>
 				</section>
 				<section class="main-place">
-					<div class="container main-place__container">
-						<h2 class="main-place__title title__h2">
-							Расположите станцию в любом удобном месте
-						</h2>
-						<h3 class="main-place__subtitle title__h3">
-							обслуживание без заезда на территорию, выводим
-							сервисную трубу за пределы участка
-						</h3>
-						<ul class="main-place__list list-reset">
-							<li class="main-place__item">
-								<div class="main-place__container-icon">
-									<img
-										loading="lazy"
-										src="./img/main-place-icon-1.svg"
-										class="image main-place-icon"
-										width="40"
-										height="40"
-										alt="Иконка"
-									/>
-								</div>
-								<h4 class="main-place__text title__h4">
-									не продавливается плитка
-								</h4>
-							</li>
-							<li class="main-place__item">
-								<div class="main-place__container-icon">
-									<img
-										loading="lazy"
-										src="./img/main-place-icon-2.svg"
-										class="image main-place-icon"
-										width="40"
-										height="40"
-										alt="Иконка"
-									/>
-								</div>
-								<h4 class="main-place__text title__h4">
-									не портится газон
-								</h4>
-							</li>
-							<li class="main-place__item">
-								<div class="main-place__container-icon">
-									<img
-										loading="lazy"
-										src="./img/main-place-icon-3.svg"
-										class="image main-place-icon"
-										width="40"
-										height="40"
-										alt="Иконка"
-									/>
-								</div>
-								<h4 class="main-place__text title__h4">
-									не остаются масляные пятна
-								</h4>
-							</li>
-						</ul>
+					<div class="container">
+						<div class="main-place__container">
+							<h2 class="main-place__title title__h2">
+								Расположите станцию в&nbsp;любом удобном месте
+							</h2>
+							<h3 class="main-place__subtitle title__h3">
+								обслуживание без заезда на территорию, выводим
+								сервисную трубу за пределы участка
+							</h3>
+							<ul class="main-place__list list-reset">
+								<li class="main-place__item">
+									<div class="main-place__container-icon">
+										<img
+											loading="lazy"
+											src="./img/main-place-icon-1.svg"
+											class="image main-place-icon"
+											width="40"
+											height="40"
+											alt="Иконка"
+										/>
+									</div>
+									<h4 class="main-place__text title__h4">
+										не продавливается плитка
+									</h4>
+								</li>
+								<li class="main-place__item">
+									<div class="main-place__container-icon">
+										<img
+											loading="lazy"
+											src="./img/main-place-icon-2.svg"
+											class="image main-place-icon"
+											width="40"
+											height="40"
+											alt="Иконка"
+										/>
+									</div>
+									<h4 class="main-place__text title__h4">
+										не портится газон
+									</h4>
+								</li>
+								<li class="main-place__item">
+									<div class="main-place__container-icon">
+										<img
+											loading="lazy"
+											src="./img/main-place-icon-3.svg"
+											class="image main-place-icon"
+											width="40"
+											height="40"
+											alt="Иконка"
+										/>
+									</div>
+									<h4 class="main-place__text title__h4">
+										не остаются масляные пятна
+									</h4>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</section>
 				<section class="main-design">
@@ -405,12 +407,12 @@
 										>
 											Выберите дизайн крышки
 										</h3>
+										<h4
+											class="main-design__subtitle-row title__h4"
+										>
+											Форма
+										</h4>
 										<div class="main-design__container-row">
-											<h4
-												class="main-design__subtitle-row title__h4"
-											>
-												Форма
-											</h4>
 											<label
 												class="main-design__label"
 												for="radio1"
@@ -424,6 +426,7 @@
 													class="main-design__radio"
 												></span
 												><picture
+													class="main-design__picture-top"
 													><source
 														srcset="
 															./img/shape1.webp
@@ -451,6 +454,7 @@
 													class="main-design__radio"
 												></span
 												><picture
+													class="main-design__picture-top"
 													><source
 														srcset="
 															./img/shape2.webp
@@ -477,6 +481,7 @@
 													class="main-design__radio"
 												></span
 												><picture
+													class="main-design__picture-top"
 													><source
 														srcset="
 															./img/shape3.webp
@@ -491,12 +496,14 @@
 														alt="Изображение формы крышки" /></picture
 											></label>
 										</div>
-										<div class="main-design__container-row">
-											<h4
-												class="main-design__subtitle-row title__h4"
-											>
-												Цвет
-											</h4>
+										<h4
+											class="main-design__subtitle-row title__h4"
+										>
+											Цвет
+										</h4>
+										<div
+											class="main-design__container-row main-design__container-row-color"
+										>
 											<label
 												class="main-design__label main-design__label-color"
 												for="radio4"
@@ -511,6 +518,7 @@
 													class="main-design__radio main-design__radio-color"
 												></span
 												><picture
+													class="main-design__picture-bot"
 													><source
 														srcset="
 															./img/color-1.webp
@@ -543,6 +551,7 @@
 													class="main-design__radio main-design__radio-color"
 												></span
 												><picture
+													class="main-design__picture-bot"
 													><source
 														srcset="
 															./img/color-2.webp
@@ -574,6 +583,7 @@
 													class="main-design__radio main-design__radio-color"
 												></span
 												><picture
+													class="main-design__picture-bot"
 													><source
 														srcset="
 															./img/color-3.webp
@@ -605,6 +615,7 @@
 													class="main-design__radio main-design__radio-color"
 												></span
 												><picture
+													class="main-design__picture-bot"
 													><source
 														srcset="
 															./img/color-4.webp
@@ -928,77 +939,81 @@
 				</section>
 				<section class="main-corpus">
 					<div class="container main-corpus__container">
-						<h3 class="main-corpus__title title__h3">
-							Корпус со сроком службы
-							<span class="main-corpus__title-blue">50+ лет</span>
-						</h3>
-						<h4 class="main-corpus__subtitle title__h4">
-							Станция Goldrye изготовлена из композитного
-							материала — стеклопластика, который прочнее и легче
-							стали.
-						</h4>
-						<h4 class="main-corpus__subtitle title__h4">
-							Он не пропускает влагу, выдерживает высокое давление
-							и не разрушается под землёй.
-						</h4>
-						<ul class="main-corpus__list list-reset">
-							<li class="main-corpus__item">
-								<div class="main-corpus__container-icon">
-									<img
-										loading="lazy"
-										src="./img/main-corpus-icon-1.svg"
-										class="image main-corpus__icon"
-										width="35"
-										height="35"
-										alt="Иконка преимущества"
-									/>
-								</div>
-								<h4
-									class="main-corpus__subtitle-item title__h4"
+						<div class="main-corpus__content">
+							<h3 class="main-corpus__title title__h3">
+								Корпус со сроком службы
+								<span class="main-corpus__title-blue"
+									>50+ лет</span
 								>
-									монолитный бесшовный корпус
-								</h4>
-							</li>
-							<li class="main-corpus__item">
-								<div class="main-corpus__container-icon">
-									<img
-										loading="lazy"
-										src="./img/main-corpus-icon-2.svg"
-										class="image main-corpus__icon"
-										width="36"
-										height="35"
-										alt="Иконка преимущества"
-									/>
-								</div>
-								<h4
-									class="main-corpus__subtitle-item title__h4"
-								>
-									толщина стенок 6 – 8 мм
-								</h4>
-							</li>
-							<li class="main-corpus__item">
-								<div class="main-corpus__container-icon">
-									<img
-										loading="lazy"
-										src="./img/main-corpus-icon-3.svg"
-										class="image main-corpus__icon"
-										width="40"
-										height="40"
-										alt="Иконка преимущества"
-									/>
-								</div>
-								<h4
-									class="main-corpus__subtitle-item title__h4"
-								>
-									гарантия на корпус 25 лет
-								</h4>
-							</li>
-						</ul>
-						<button
-							class="btn-reset button button__secondary main-corpus__button"
-						>
-							подробнее о системах очистки
-						</button>
+							</h3>
+							<h4 class="main-corpus__subtitle title__h4">
+								Станция Goldrye изготовлена из композитного
+								материала — стеклопластика, который прочнее
+								и легче стали.
+							</h4>
+							<h4 class="main-corpus__subtitle title__h4">
+								Он не пропускает влагу, выдерживает высокое
+								давление и не разрушается под землёй.
+							</h4>
+							<ul class="main-corpus__list list-reset">
+								<li class="main-corpus__item">
+									<div class="main-corpus__container-icon">
+										<img
+											loading="lazy"
+											src="./img/main-corpus-icon-1.svg"
+											class="image main-corpus__icon"
+											width="35"
+											height="35"
+											alt="Иконка преимущества"
+										/>
+									</div>
+									<h4
+										class="main-corpus__subtitle-item title__h4"
+									>
+										монолитный бесшовный корпус
+									</h4>
+								</li>
+								<li class="main-corpus__item">
+									<div class="main-corpus__container-icon">
+										<img
+											loading="lazy"
+											src="./img/main-corpus-icon-2.svg"
+											class="image main-corpus__icon"
+											width="36"
+											height="35"
+											alt="Иконка преимущества"
+										/>
+									</div>
+									<h4
+										class="main-corpus__subtitle-item title__h4"
+									>
+										толщина стенок 6 – 8 мм
+									</h4>
+								</li>
+								<li class="main-corpus__item">
+									<div class="main-corpus__container-icon">
+										<img
+											loading="lazy"
+											src="./img/main-corpus-icon-3.svg"
+											class="image main-corpus__icon"
+											width="40"
+											height="40"
+											alt="Иконка преимущества"
+										/>
+									</div>
+									<h4
+										class="main-corpus__subtitle-item title__h4"
+									>
+										гарантия на корпус 25 лет
+									</h4>
+								</li>
+							</ul>
+							<button
+								class="btn-reset button button__secondary main-corpus__button"
+							>
+								подробнее о системах очистки
+							</button>
+						</div>
 						<div class="main-corpus__container-background">
 							<picture
 								><source
@@ -1037,6 +1052,14 @@
 									<picture class="main-feedback__picture"
 										><source
 											srcset="./img/feedback-1.webp"
+											type="image/webp"
+											media="(max-width: 480px)" />
+										<source
+											srcset="./img/feedback-1-1024.webp"
+											type="image/webp"
+											media="(max-width: 1024px)" />
+										<source
+											srcset="./img/feedback-1.webp"
 											type="image/webp" />
 										<img
 											loading="lazy"
@@ -1069,70 +1092,13 @@
 									<picture class="main-feedback__picture"
 										><source
 											srcset="./img/feedback-2.webp"
-											type="image/webp" />
-										<img
-											loading="lazy"
-											src="./img/feedback-2.png"
-											class="image main-feedback__image"
-											width="410"
-											height="271"
-											alt="Превью"
-									/></picture>
-									<div class="main-feedback__container-text">
-										<h3
-											class="main-feedback__subtitle title__h3"
-										>
-											Дмитрий Елисеев
-										</h3>
-										<h4
-											class="main-feedback__subtitle-h4 title__h4"
-										>
-											Приобрели Goldrye 7
-										</h4>
-										<p class="main-feedback__text">
-											«Установили станцию, очень удобно
-											при очитке без заезда ассенизатора
-											на участок. У знакомых испортили
-											весь газон, у меня все целое и грязи
-											нет.»
-										</p>
-									</div>
-								</div>
-								<div class="swiper-slide main-feedback__slide">
-									<picture class="main-feedback__picture"
-										><source
-											srcset="./img/feedback-3.webp"
-											type="image/webp" />
-										<img
-											loading="lazy"
-											src="./img/feedback-3.png"
-											class="image main-feedback__image"
-											width="410"
-											height="271"
-											alt="Превью"
-									/></picture>
-									<div class="main-feedback__container-text">
-										<h3
-											class="main-feedback__subtitle title__h3"
-										>
-											Сергей Кулешов
-										</h3>
-										<h4
-											class="main-feedback__subtitle-h4 title__h4"
-										>
-											Прораб ООО «Ваш Дом»
-										</h4>
-										<p class="main-feedback__text">
-											«Всегда рекомендуем нашим заказчикам
-											станции очистки Goldrye, удобно
-											устанавливать и обслуживать. Слышим
-											только положительные отзывы»
-										</p>
-									</div>
-								</div>
-								<div class="swiper-slide main-feedback__slide">
-									<picture class="main-feedback__picture"
-										><source
+											type="image/webp"
+											media="(max-width: 480px)" />
+										<source
+											srcset="./img/feedback-2-1024.webp"
+											type="image/webp"
+											media="(max-width: 1024px)" />
+										<source
 											srcset="./img/feedback-2.webp"
 											type="image/webp" />
 										<img
@@ -1167,6 +1133,95 @@
 									<picture class="main-feedback__picture"
 										><source
 											srcset="./img/feedback-3.webp"
+											type="image/webp"
+											media="(max-width: 480px)" />
+										<source
+											srcset="./img/feedback-3-1024.webp"
+											type="image/webp"
+											media="(max-width: 1024px)" />
+										<source
+											srcset="./img/feedback-3.webp"
+											type="image/webp" />
+										<img
+											loading="lazy"
+											src="./img/feedback-3.png"
+											class="image main-feedback__image"
+											width="410"
+											height="271"
+											alt="Превью"
+									/></picture>
+									<div class="main-feedback__container-text">
+										<h3
+											class="main-feedback__subtitle title__h3"
+										>
+											Сергей Кулешов
+										</h3>
+										<h4
+											class="main-feedback__subtitle-h4 title__h4"
+										>
+											Прораб ООО «Ваш Дом»
+										</h4>
+										<p class="main-feedback__text">
+											«Всегда рекомендуем нашим заказчикам
+											станции очистки Goldrye, удобно
+											устанавливать и обслуживать. Слышим
+											только положительные отзывы»
+										</p>
+									</div>
+								</div>
+								<div class="swiper-slide main-feedback__slide">
+									<picture class="main-feedback__picture"
+										><source
+											srcset="./img/feedback-2.webp"
+											type="image/webp"
+											media="(max-width: 480px)" />
+										<source
+											srcset="./img/feedback-2-1024.webp"
+											type="image/webp"
+											media="(max-width: 1024px)" />
+										<source
+											srcset="./img/feedback-2.webp"
+											type="image/webp" />
+										<img
+											loading="lazy"
+											src="./img/feedback-2.png"
+											class="image main-feedback__image"
+											width="410"
+											height="271"
+											alt="Превью"
+									/></picture>
+									<div class="main-feedback__container-text">
+										<h3
+											class="main-feedback__subtitle title__h3"
+										>
+											Дмитрий Елисеев
+										</h3>
+										<h4
+											class="main-feedback__subtitle-h4 title__h4"
+										>
+											Приобрели Goldrye 7
+										</h4>
+										<p class="main-feedback__text">
+											«Установили станцию, очень удобно
+											при очитке без заезда ассенизатора
+											на участок. У знакомых испортили
+											весь газон, у меня все целое и грязи
+											нет.»
+										</p>
+									</div>
+								</div>
+								<div class="swiper-slide main-feedback__slide">
+									<picture class="main-feedback__picture"
+										><source
+											srcset="./img/feedback-3.webp"
+											type="image/webp"
+											media="(max-width: 480px)" />
+										<source
+											srcset="./img/feedback-3-1024.webp"
+											type="image/webp"
+											media="(max-width: 1024px)" />
+										<source
+											srcset="./img/feedback-3.webp"
 											type="image/webp" />
 										<img
 											loading="lazy"
@@ -1196,6 +1251,11 @@
 									</div>
 								</div>
 							</div>
+							<button
+								class="btn-reset button button__secondary main-feedback__button-more"
+							>
+								показать больше
+							</button>
 							<div class="main-feedback__container-pagination">
 								<button
 									class="btn-reset main-feedback__button main-feedback__button-prev"
@@ -1229,21 +1289,135 @@
 					</div>
 				</section>
 				<section class="main-banner">
-					<div class="container main-banner__container">
-						<h2 class="main-banner__title title__h2">
-							Водоотвод без забот!
-						</h2>
-						<h4 class="main-banner__subtitle title__h4">
-							Скидка, акции и другие выгодные предложения
-						</h4>
-						<a
-							href="./catalog.html"
-							class="btn-reset button button__primary main-banner__button"
-							>перейти в каталог</a
-						>
+					<div class="container">
+						<div class="main-banner__container">
+							<h2 class="main-banner__title title__h2">
+								Водоотвод без забот!
+							</h2>
+							<h4 class="main-banner__subtitle title__h4">
+								Скидка, акции и другие выгодные предложения
+							</h4>
+							<a
+								href="./catalog.html"
+								class="btn-reset button button__primary main-banner__button"
+								>перейти в каталог</a
+							>
+						</div>
 					</div>
 				</section>
 				<section class="main-map" id="main-map"></section>
+				<section class="menu">
+					<div class="menu__container">
+						<ul class="list-reset menu__list">
+							<li class="menu__item">
+								<a href="./main.html" class="menu__link"
+									><img
+										loading="lazy"
+										src="./img/home.svg"
+										class="image"
+										width="25"
+										height="21"
+										alt="Иконка домой"
+								/></a>
+							</li>
+							<li class="menu__item">
+								<button class="btn-reset">
+									<img
+										loading="lazy"
+										src="./img/search-icon-2.svg"
+										class="image"
+										width="25"
+										height="21"
+										alt="Иконка поиска"
+									/>
+								</button>
+							</li>
+							<li class="menu__item">
+								<button
+									class="burger menu__burger"
+									aria-label="Открыть меню"
+									aria-expanded="false"
+									id="burger"
+								>
+									<span class="burger__line"></span>
+								</button>
+							</li>
+							<li class="header__item menu__item">
+								<a
+									href="./basket.html"
+									class="menu__link header__link-basket"
+									><div
+										class="header__counter header__counter-hidden"
+									>
+										<span class="header__number">1</span>
+									</div>
+									<img
+										src="./img/basket-icon.svg"
+										class="image header__icon"
+										width="24"
+										height="22"
+										alt="Иконка корзины"
+								/></a>
+							</li>
+							<li class="header__item menu__item">
+								<a href="./cabinet.html" class="menu__link"
+									><img
+										src="./img/user-icon.svg"
+										class="image header__icon"
+										width="21"
+										height="21"
+										alt="Иконка пользователя"
+								/></a>
+							</li>
+						</ul>
+					</div>
+					<div class="menu__bg">
+						<ul class="list-reset menu__content">
+							<li class="nav__item menu__item">
+								<a
+									href="./catalog.html"
+									class="nav__link menu__link-nav"
+									>Каталог</a
+								>
+							</li>
+							<li class="nav__item menu__item">
+								<a
+									href="./news.html"
+									class="nav__link menu__link-nav"
+									>Новости</a
+								>
+							</li>
+							<li class="nav__item menu__item">
+								<a
+									href="./cleaning.html"
+									class="nav__link menu__link-nav"
+									>О системах очистки</a
+								>
+							</li>
+							<li class="nav__item menu__item">
+								<a
+									href="./cooperation.html"
+									class="nav__link menu__link-nav"
+									>Сотрудничество</a
+								>
+							</li>
+							<li class="nav__item menu__item">
+								<a
+									href="./about.html"
+									class="nav__link menu__link-nav"
+									>О компании</a
+								>
+							</li>
+							<li class="nav__item menu__item">
+								<a
+									href="./contacts.html"
+									class="nav__link menu__link-nav"
+									>Контакты</a
+								>
+							</li>
+						</ul>
+					</div>
+				</section>
 			</main>
 			<footer class="footer">
 				<div class="container footer__container">
