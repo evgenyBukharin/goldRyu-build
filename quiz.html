@@ -1,55 +1,56 @@
 <!DOCTYPE html>
 <html lang="ru" class="page">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<meta name="theme-color" content="#111111" />
-		<title>GoldRye</title>
-		<link
-			rel="preload"
-			href="fonts/MontserratAlternates-Bold.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="fonts/MontserratAlternates-SemiBold.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="fonts/Montserrat-SemiBold.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="fonts/Montserrat-Medium.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="fonts/NunitoSans-Regular.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link rel="stylesheet" href="css/vendor.css" />
-		<link rel="stylesheet" href="css/main.css" />
-		<script
-			src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=4b27804e-320a-42f2-9edb-7580ad2846a5"
-			type="text/javascript"
-		></script>
-		<script defer="defer" src="js/main.js"></script>
-	</head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="theme-color" content="#111111" />
+	<title>GoldRye</title>
+	<link
+		rel="preload"
+		href="fonts/MontserratAlternates-Bold.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin
+	/>
+	<link
+		rel="preload"
+		href="fonts/MontserratAlternates-SemiBold.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin
+	/>
+	<link
+		rel="preload"
+		href="fonts/Montserrat-SemiBold.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin
+	/>
+	<link
+		rel="preload"
+		href="fonts/Montserrat-Medium.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin
+	/>
+	<link
+		rel="preload"
+		href="fonts/NunitoSans-Regular.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin
+	/>
+	<link rel="stylesheet" href="css/vendor.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<script
+		src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=4b27804e-320a-42f2-9edb-7580ad2846a5"
+		type="text/javascript"
+	></script>
+	<script defer src="js/main.js"></script>
+</head>
+
 	<body class="page__body quiz__body">
 		<div class="site-container">
 			<main class="main">
@@ -59,14 +60,16 @@
 							<a
 								href="./main.html"
 								class="btn-reset quiz__button-close"
-								><img
+							>
+								<img
 									loading="lazy"
 									src="./img/close-icon.svg"
 									class="image quiz__icon-close"
 									width="15"
 									height="15"
 									alt="Иконка закрыть"
-							/></a>
+								/>
+							</a>
 							<div class="swiper quiz__slider">
 								<div class="swiper-wrapper quiz__wrapper">
 									<div class="swiper-slide quiz__slide">
@@ -87,8 +90,8 @@
 										<p
 											class="quiz__text quiz__text-main title__text"
 										>
-											Ответьте на 7 вопросов<br />и мы
-											подберем лучший вариант для Вас
+											Ответьте на 7 вопросов <br />
+											и мы подберем лучший вариант для Вас
 										</p>
 										<button
 											class="btn-reset button button__primary quiz__button"
@@ -142,7 +145,8 @@
 																<label
 																	class="quiz__label"
 																	for="count1"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="count"
 																		id="count1"
@@ -157,8 +161,8 @@
 																		>от 1 до
 																		6
 																		человек</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 															<li
 																class="quiz__item-count"
@@ -166,13 +170,14 @@
 																<label
 																	class="quiz__label"
 																	for="count2"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="count"
 																		id="count2"
 																		class="quiz__input-radio"
 																		value="3-8"
-																		checked="checked"
+																		checked
 																	/>
 																	<span
 																		class="quiz__checkmark"
@@ -182,8 +187,8 @@
 																		>от 3 до
 																		8
 																		человек</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 															<li
 																class="quiz__item-count"
@@ -191,7 +196,8 @@
 																<label
 																	class="quiz__label"
 																	for="count3"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="count"
 																		id="count3"
@@ -205,8 +211,8 @@
 																		class="quiz__text-inner"
 																		>более 8
 																		человек</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 														</ul>
 													</div>
@@ -228,24 +234,26 @@
 																<label
 																	class="quiz__label quiz__label-time"
 																	for="time1"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="time"
 																		id="time1"
 																		class="quiz__input-radio"
 																		value="1-6"
-																		checked="checked"
+																		checked
 																	/>
 																	<span
 																		class="quiz__checkmark"
 																	></span>
 																	<span
 																		class="quiz__text-inner"
-																		>живем в
+																	>
+																		живем в
 																		доме
-																		постоянно</span
-																	></label
-																>
+																		постоянно
+																	</span>
+																</label>
 															</li>
 															<li
 																class="quiz__item-time"
@@ -253,7 +261,8 @@
 																<label
 																	class="quiz__label quiz__label-time"
 																	for="time2"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="time"
 																		id="time2"
@@ -265,15 +274,16 @@
 																	></span>
 																	<span
 																		class="quiz__text-inner"
-																		>приезжаем
+																	>
+																		приезжаем
 																		на
 																		выходные
 																		в
 																		течение
 																		всего
-																		года</span
-																	></label
-																>
+																		года
+																	</span>
+																</label>
 															</li>
 															<li
 																class="quiz__item-time"
@@ -281,7 +291,8 @@
 																<label
 																	class="quiz__label quiz__label-time"
 																	for="time3"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="time"
 																		id="time3"
@@ -293,11 +304,12 @@
 																	></span>
 																	<span
 																		class="quiz__text-inner"
-																		>живем
+																	>
+																		живем
 																		только
-																		летом</span
-																	></label
-																>
+																		летом
+																	</span>
+																</label>
 															</li>
 														</ul>
 													</div>
@@ -329,8 +341,9 @@
 																	/>
 																	<span
 																		class="quiz__text-inner quiz__text-inner-quantity"
-																		>Душ</span
 																	>
+																		Душ
+																	</span>
 																</div>
 																<ul
 																	class="list-reset quiz__list-inputs"
@@ -348,8 +361,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity0"
-																			>0</label
 																		>
+																			0
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -360,13 +374,14 @@
 																			id="quantity1"
 																			class="quiz__input-radio quiz__input-quantity"
 																			value="1"
-																			checked="checked"
+																			checked
 																		/>
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity1"
-																			>1</label
 																		>
+																			1
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -381,8 +396,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity2"
-																			>2</label
 																		>
+																			2
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -397,8 +413,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity3"
-																			>3</label
 																		>
+																			3
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -413,8 +430,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity4"
-																			>4</label
 																		>
+																			4
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -429,8 +447,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity5"
-																			>5</label
 																		>
+																			5
+																		</label>
 																	</li>
 																</ul>
 															</li>
@@ -450,9 +469,10 @@
 																	/>
 																	<span
 																		class="quiz__text-inner quiz__text-inner-quantity"
-																		>Посудомоечная
-																		машина</span
 																	>
+																		Посудомоечная
+																		машина
+																	</span>
 																</div>
 																<ul
 																	class="list-reset quiz__list-inputs"
@@ -470,8 +490,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity6"
-																			>0</label
 																		>
+																			0
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -482,13 +503,14 @@
 																			id="quantity7"
 																			class="quiz__input-radio quiz__input-quantity"
 																			value="1"
-																			checked="checked"
+																			checked
 																		/>
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity7"
-																			>1</label
 																		>
+																			1
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -503,8 +525,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity8"
-																			>2</label
 																		>
+																			2
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -519,8 +542,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity9"
-																			>3</label
 																		>
+																			3
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -535,8 +559,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity10"
-																			>4</label
 																		>
+																			4
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -551,8 +576,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity11"
-																			>5</label
 																		>
+																			5
+																		</label>
 																	</li>
 																</ul>
 															</li>
@@ -572,8 +598,9 @@
 																	/>
 																	<span
 																		class="quiz__text-inner quiz__text-inner-quantity"
-																		>Ванна</span
 																	>
+																		Ванна
+																	</span>
 																</div>
 																<ul
 																	class="list-reset quiz__list-inputs"
@@ -591,8 +618,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity12"
-																			>0</label
 																		>
+																			0
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -603,13 +631,14 @@
 																			id="quantity13"
 																			class="quiz__input-radio quiz__input-quantity"
 																			value="1"
-																			checked="checked"
+																			checked
 																		/>
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity13"
-																			>1</label
 																		>
+																			1
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -624,8 +653,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity14"
-																			>2</label
 																		>
+																			2
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -640,8 +670,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity15"
-																			>3</label
 																		>
+																			3
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -656,8 +687,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity16"
-																			>4</label
 																		>
+																			4
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -672,8 +704,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity17"
-																			>5</label
 																		>
+																			5
+																		</label>
 																	</li>
 																</ul>
 															</li>
@@ -693,8 +726,9 @@
 																	/>
 																	<span
 																		class="quiz__text-inner quiz__text-inner-quantity"
-																		>Джакузи</span
 																	>
+																		Джакузи
+																	</span>
 																</div>
 																<ul
 																	class="list-reset quiz__list-inputs"
@@ -712,8 +746,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity18"
-																			>0</label
 																		>
+																			0
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -724,13 +759,14 @@
 																			id="quantity19"
 																			class="quiz__input-radio quiz__input-quantity"
 																			value="1"
-																			checked="checked"
+																			checked
 																		/>
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity19"
-																			>1</label
 																		>
+																			1
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -745,8 +781,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity20"
-																			>2</label
 																		>
+																			2
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -761,8 +798,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity21"
-																			>3</label
 																		>
+																			3
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -777,8 +815,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity22"
-																			>4</label
 																		>
+																			4
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -793,8 +832,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity23"
-																			>5</label
 																		>
+																			5
+																		</label>
 																	</li>
 																</ul>
 															</li>
@@ -814,8 +854,9 @@
 																	/>
 																	<span
 																		class="quiz__text-inner quiz__text-inner-quantity"
-																		>Туалет</span
 																	>
+																		Туалет
+																	</span>
 																</div>
 																<ul
 																	class="list-reset quiz__list-inputs"
@@ -833,8 +874,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity24"
-																			>0</label
 																		>
+																			0
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -845,13 +887,14 @@
 																			id="quantity25"
 																			class="quiz__input-radio quiz__input-quantity"
 																			value="1"
-																			checked="checked"
+																			checked
 																		/>
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity25"
-																			>1</label
 																		>
+																			1
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -866,8 +909,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity26"
-																			>2</label
 																		>
+																			2
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -882,8 +926,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity27"
-																			>3</label
 																		>
+																			3
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -898,8 +943,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity28"
-																			>4</label
 																		>
+																			4
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -914,8 +960,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity29"
-																			>5</label
 																		>
+																			5
+																		</label>
 																	</li>
 																</ul>
 															</li>
@@ -935,10 +982,11 @@
 																	/>
 																	<span
 																		class="quiz__text-inner quiz__text-inner-quantity"
-																		>Система
-																		очистки
-																		воды</span
 																	>
+																		Система
+																		очистки
+																		воды
+																	</span>
 																</div>
 																<ul
 																	class="list-reset quiz__list-inputs"
@@ -956,8 +1004,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity30"
-																			>0</label
 																		>
+																			0
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -968,13 +1017,14 @@
 																			id="quantity31"
 																			class="quiz__input-radio quiz__input-quantity"
 																			value="1"
-																			checked="checked"
+																			checked
 																		/>
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity31"
-																			>1</label
 																		>
+																			1
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -989,8 +1039,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity32"
-																			>2</label
 																		>
+																			2
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1005,8 +1056,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity33"
-																			>3</label
 																		>
+																			3
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1021,8 +1073,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity34"
-																			>4</label
 																		>
+																			4
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1037,8 +1090,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity35"
-																			>5</label
 																		>
+																			5
+																		</label>
 																	</li>
 																</ul>
 															</li>
@@ -1058,9 +1112,10 @@
 																	/>
 																	<span
 																		class="quiz__text-inner quiz__text-inner-quantity"
-																		>Стиральная
-																		машина</span
 																	>
+																		Стиральная
+																		машина
+																	</span>
 																</div>
 																<ul
 																	class="list-reset quiz__list-inputs"
@@ -1078,8 +1133,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity36"
-																			>0</label
 																		>
+																			0
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1090,13 +1146,14 @@
 																			id="quantity37"
 																			class="quiz__input-radio quiz__input-quantity"
 																			value="1"
-																			checked="checked"
+																			checked
 																		/>
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity37"
-																			>1</label
 																		>
+																			1
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1111,8 +1168,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity38"
-																			>2</label
 																		>
+																			2
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1127,8 +1185,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity39"
-																			>3</label
 																		>
+																			3
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1143,8 +1202,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity40"
-																			>4</label
 																		>
+																			4
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1159,8 +1219,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity41"
-																			>5</label
 																		>
+																			5
+																		</label>
 																	</li>
 																</ul>
 															</li>
@@ -1180,9 +1241,10 @@
 																	/>
 																	<span
 																		class="quiz__text-inner quiz__text-inner-quantity"
-																		>Измельчитель
-																		мусора</span
 																	>
+																		Измельчитель
+																		мусора
+																	</span>
 																</div>
 																<ul
 																	class="list-reset quiz__list-inputs"
@@ -1200,8 +1262,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity42"
-																			>0</label
 																		>
+																			0
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1212,13 +1275,14 @@
 																			id="quantity43"
 																			class="quiz__input-radio quiz__input-quantity"
 																			value="1"
-																			checked="checked"
+																			checked
 																		/>
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity43"
-																			>1</label
 																		>
+																			1
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1233,8 +1297,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity44"
-																			>2</label
 																		>
+																			2
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1249,8 +1314,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity45"
-																			>3</label
 																		>
+																			3
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1265,8 +1331,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity46"
-																			>4</label
 																		>
+																			4
+																		</label>
 																	</li>
 																	<li
 																		class="quiz__item-input"
@@ -1281,8 +1348,9 @@
 																		<label
 																			class="quiz__label-quantity"
 																			for="quantity47"
-																			>5</label
 																		>
+																			5
+																		</label>
 																	</li>
 																</ul>
 															</li>
@@ -1306,7 +1374,8 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="montazh1"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="montazh"
 																		id="montazh1"
@@ -1319,8 +1388,8 @@
 																	<span
 																		class="quiz__text-inner"
 																		>Да</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 															<li
 																class="quiz__item-count"
@@ -1328,13 +1397,14 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="montazh2"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="montazh"
 																		id="montazh2"
 																		class="quiz__input-radio"
 																		value="self"
-																		checked="checked"
+																		checked
 																	/>
 																	<span
 																		class="quiz__checkmark"
@@ -1343,8 +1413,8 @@
 																		class="quiz__text-inner"
 																		>Смонтирую
 																		сам</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 															<li
 																class="quiz__item-count"
@@ -1352,7 +1422,8 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="montazh3"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="montazh"
 																		id="montazh3"
@@ -1366,8 +1437,8 @@
 																		class="quiz__text-inner"
 																		>Нужна
 																		консультация</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 														</ul>
 													</div>
@@ -1399,79 +1470,94 @@
 																	<label
 																		class="main-design__label"
 																		for="radio1"
-																		><input
+																	>
+																		<input
 																			class="main-design__input"
 																			type="radio"
 																			value="shape1"
 																			name="shape"
-																			id="radio1" />
+																			id="radio1"
+																		/>
 																		<span
 																			class="main-design__radio quiz__radio-design"
-																		></span
-																		><picture
-																			><source
+																		></span>
+																		<picture>
+																			<source
 																				srcset="
 																					./img/shape1.webp
 																				"
-																				type="image/webp" />
+																				type="image/webp"
+																			/>
 																			<img
 																				src="./img/shape1.png"
 																				class="image main-design__image"
 																				width="227"
 																				height="69"
-																				alt="Изображение формы крышки" /></picture
-																	></label>
+																				alt="Изображение формы крышки"
+																			/>
+																		</picture>
+																	</label>
 																	<label
 																		class="main-design__label main-design__label-active"
 																		for="radio2"
-																		><input
+																	>
+																		<input
 																			class="main-design__input"
 																			type="radio"
 																			value="shape2"
 																			name="shape"
 																			id="radio2"
-																			checked="checked" />
+																			checked
+																		/>
 																		<span
 																			class="main-design__radio quiz__radio-design"
-																		></span
-																		><picture
-																			><source
+																		></span>
+																		<picture>
+																			<source
 																				srcset="
 																					./img/shape2.webp
 																				"
-																				type="image/webp" />
+																				type="image/webp"
+																			/>
 																			<img
 																				src="./img/shape2.png"
 																				class="image main-design__image"
 																				width="227"
 																				height="69"
-																				alt="Изображение формы крышки" /></picture
-																	></label>
+																				alt="Изображение формы крышки"
+																			/>
+																		</picture>
+																	</label>
 																	<label
 																		class="main-design__label"
 																		for="radio3"
-																		><input
+																	>
+																		<input
 																			class="main-design__input"
 																			type="radio"
 																			value="shape3"
 																			name="shape"
-																			id="radio3" />
+																			id="radio3"
+																		/>
 																		<span
 																			class="main-design__radio quiz__radio-design"
-																		></span
-																		><picture
-																			><source
+																		></span>
+																		<picture>
+																			<source
 																				srcset="
 																					./img/shape3.webp
 																				"
-																				type="image/webp" />
+																				type="image/webp"
+																			/>
 																			<img
 																				src="./img/shape3.png"
 																				class="image main-design__image"
 																				width="227"
 																				height="69"
-																				alt="Изображение формы крышки" /></picture
-																	></label>
+																				alt="Изображение формы крышки"
+																			/>
+																		</picture>
+																	</label>
 																</div>
 																<div
 																	class="main-design__container-row"
@@ -1484,7 +1570,8 @@
 																	<label
 																		class="main-design__label main-design__label-color"
 																		for="radio4"
-																		><input
+																	>
+																		<input
 																			class="main-design__input"
 																			type="radio"
 																			value="color1"
@@ -1493,29 +1580,34 @@
 																		/>
 																		<span
 																			class="main-design__radio main-design__radio-color"
-																		></span
-																		><picture
+																		></span>
+																		<picture
 																			class="main-design__picture-bot"
-																			><source
+																		>
+																			<source
 																				srcset="
 																					./img/color-1.webp
 																				"
-																				type="image/webp" />
+																				type="image/webp"
+																			/>
 																			<img
 																				src="./img/color-1.png"
 																				class="image main-design__image main-design__image-color"
 																				width="190"
 																				height="44"
-																				alt="Изображение цвета крышки" /></picture
-																		><span
+																				alt="Изображение цвета крышки"
+																			/>
+																		</picture>
+																		<span
 																			class="main-design__text title__text"
 																			>кора</span
-																		></label
-																	>
+																		>
+																	</label>
 																	<label
 																		class="main-design__label main-design__label-color"
 																		for="radio5"
-																		><input
+																	>
+																		<input
 																			class="main-design__input"
 																			type="radio"
 																			value="color2"
@@ -1524,29 +1616,35 @@
 																		/>
 																		<span
 																			class="main-design__radio main-design__radio-color"
-																		></span
-																		><picture
+																		></span>
+																		<picture
 																			class="main-design__picture-bot"
-																			><source
+																		>
+																			<source
 																				srcset="
 																					./img/color-2.webp
 																				"
-																				type="image/webp" />
+																				type="image/webp"
+																			/>
 																			<img
 																				src="./img/color-2.png"
 																				class="image main-design__image main-design__image-color"
 																				width="190"
 																				height="44"
-																				alt="Изображение цвета крышки" /></picture
-																		><span
+																				alt="Изображение цвета крышки"
+																			/>
+																		</picture>
+																		<span
 																			class="main-design__text title__text"
-																			>плитка</span
-																		></label
-																	>
+																		>
+																			плитка
+																		</span>
+																	</label>
 																	<label
 																		class="main-design__label main-design__label-color"
 																		for="radio6"
-																		><input
+																	>
+																		<input
 																			class="main-design__input"
 																			type="radio"
 																			value="color3"
@@ -1555,29 +1653,35 @@
 																		/>
 																		<span
 																			class="main-design__radio main-design__radio-color"
-																		></span
-																		><picture
+																		></span>
+																		<picture
 																			class="main-design__picture-bot"
-																			><source
+																		>
+																			<source
 																				srcset="
 																					./img/color-3.webp
 																				"
-																				type="image/webp" />
+																				type="image/webp"
+																			/>
 																			<img
 																				src="./img/color-3.png"
 																				class="image main-design__image main-design__image-color"
 																				width="190"
 																				height="44"
-																				alt="Изображение цвета крышки" /></picture
-																		><span
+																				alt="Изображение цвета крышки"
+																			/>
+																		</picture>
+																		<span
 																			class="main-design__text title__text"
-																			>газон</span
-																		></label
-																	>
+																		>
+																			газон
+																		</span>
+																	</label>
 																	<label
 																		class="main-design__label main-design__label-color"
 																		for="radio8"
-																		><input
+																	>
+																		<input
 																			class="main-design__input"
 																			type="radio"
 																			value="color4"
@@ -1586,26 +1690,31 @@
 																		/>
 																		<span
 																			class="main-design__radio main-design__radio-color"
-																		></span
-																		><picture
+																		></span>
+																		<picture
 																			class="main-design__picture-bot"
-																			><source
+																		>
+																			<source
 																				srcset="
 																					./img/color-4.webp
 																				"
-																				type="image/webp" />
+																				type="image/webp"
+																			/>
 																			<img
 																				src="./img/color-4.png"
 																				class="image main-design__image main-design__image-color"
 																				width="190"
 																				height="44"
-																				alt="Изображение цвета крышки" /></picture
-																		><span
+																				alt="Изображение цвета крышки"
+																			/>
+																		</picture>
+																		<span
 																			class="main-design__text title__text"
-																			>под
-																			заказ</span
-																		></label
-																	>
+																		>
+																			под
+																			заказ
+																		</span>
+																	</label>
 																</div>
 															</form>
 														</div>
@@ -1629,7 +1738,8 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="other1"
-																	><input
+																>
+																	<input
 																		type="checkbox"
 																		name="other"
 																		id="other1"
@@ -1643,8 +1753,8 @@
 																		class="quiz__text-inner"
 																		>Отопление
 																		дома</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 															<li
 																class="quiz__item-count"
@@ -1652,13 +1762,14 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="other2"
-																	><input
+																>
+																	<input
 																		type="checkbox"
 																		name="other"
 																		id="other2"
 																		class="quiz__input-radio"
 																		value="analysis"
-																		checked="checked"
+																		checked
 																	/>
 																	<span
 																		class="quiz__checkmark"
@@ -1668,8 +1779,8 @@
 																		>Анализ
 																		питьевой
 																		воды</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 															<li
 																class="quiz__item-count"
@@ -1677,7 +1788,8 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="other3"
-																	><input
+																>
+																	<input
 																		type="checkbox"
 																		name="other"
 																		id="other3"
@@ -1691,8 +1803,8 @@
 																		class="quiz__text-inner"
 																		>Автоматический
 																		полив</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 															<li
 																class="quiz__item-count"
@@ -1700,7 +1812,8 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="other4"
-																	><input
+																>
+																	<input
 																		type="checkbox"
 																		name="other"
 																		id="other4"
@@ -1715,8 +1828,8 @@
 																		>Очистка
 																		воды из
 																		скважины</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 															<li
 																class="quiz__item-count"
@@ -1724,7 +1837,8 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="other5"
-																	><input
+																>
+																	<input
 																		type="checkbox"
 																		name="other"
 																		id="other5"
@@ -1738,8 +1852,8 @@
 																		class="quiz__text-inner"
 																		>Дренажный
 																		колодец</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 															<li
 																class="quiz__item-count"
@@ -1747,7 +1861,8 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="other6"
-																	><input
+																>
+																	<input
 																		type="checkbox"
 																		name="other"
 																		id="other6"
@@ -1760,8 +1875,8 @@
 																	<span
 																		class="quiz__text-inner"
 																		>Погреб</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 														</ul>
 													</div>
@@ -1783,7 +1898,8 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="gitf1"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="gitf"
 																		id="gitf1"
@@ -1798,8 +1914,8 @@
 																		>Скидка
 																		5% на
 																		станцию</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 															<li
 																class="quiz__item-count"
@@ -1807,13 +1923,14 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="gitf2"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="gitf"
 																		id="gitf2"
 																		class="quiz__input-radio"
 																		value="self"
-																		checked="checked"
+																		checked
 																	/>
 																	<span
 																		class="quiz__checkmark"
@@ -1823,8 +1940,8 @@
 																		>Первый
 																		сервис
 																		бесплатно</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 															<li
 																class="quiz__item-count"
@@ -1832,7 +1949,8 @@
 																<label
 																	class="quiz__label quiz__label-montazh"
 																	for="gitf3"
-																	><input
+																>
+																	<input
 																		type="radio"
 																		name="gitf"
 																		id="gitf3"
@@ -1846,8 +1964,8 @@
 																		class="quiz__text-inner"
 																		>Дополнительная
 																		гарантия</span
-																	></label
-																>
+																	>
+																</label>
 															</li>
 														</ul>
 													</div>
